@@ -1,4 +1,4 @@
-I have you have successfully install Gurobi Software in Ubuntu
+I hope, you have successfully install Gurobi Software in Ubuntu
 
 //Sypher004
 I have attached the c program file "sypher.c". Just run it and dump the output at "sypher.lp" file.
@@ -22,4 +22,8 @@ Then open new terminal and run the .lp file you have created.
  
  //To get all solution from .lp file
  gurobi_cl ResultFile=sypher.sol sypher.lp
+ 
+ Feel free ask me any questions...!!
+ Email ID: ajaykd@iitbhilai.ac.in
+
 
