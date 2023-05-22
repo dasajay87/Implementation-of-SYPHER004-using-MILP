@@ -1,0 +1,25 @@
+I have you have successfully install Gurobi Software in Ubuntu
+
+//Sypher004
+I have attached the c program file "sypher.c". Just run it and dump the output at "sypher.lp" file.
+Here is the commands
+
+	gcc sypher.c
+	./a.out>sypher.lp
+
+You can create .lp file (MILP code) for any number of ROUNDS written in C program for sypher004.
+
+
+//start gurobi
+
+
+gurobi.sh
+
+Then open new terminal and run the .lp file you have created.
+
+//To Run .lp file (here we can only see the final output only).
+ gurobi_cl file.lp
+ 
+ //To get all solution from .lp file
+ gurobi_cl ResultFile=sypher.sol sypher.lp
+
